@@ -50,7 +50,7 @@ Permite navegar entre todas las páginas de manera rápida y ordenada.
 <li><Link to="/solicitar">Solicitar</Link></li>
 
 📌 Conclusión
-# se pidio ayuda a la IA para solucionar algunos errores en el proyecto y tambien se le pidio ayuda para implementar algunas de estas nuevas tecnologias.
+se pidio ayuda a la IA para solucionar algunos errores en el proyecto y tambien se le pidio ayuda para implementar algunas de estas nuevas tecnologias.
 CreditSmart React es una práctica completa para reforzar el uso de React, las rutas, los componentes reutilizables, ademas permite comprender cómo convertir un diseño estático en una aplicación funcional.
 <img width="1329" height="547" alt="image" src="https://github.com/user-attachments/assets/f69da1e1-25a5-48c9-befc-5390ae434e99" />
 

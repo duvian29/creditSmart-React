@@ -1,5 +1,5 @@
 # creditSmart-React
-# Duvian Auguto Yepes Toro
+# Duvian Augusto Yepes Toro
 
 Aplicación web construida con React esta es la continuidad del diseño estático de CreditSmart interactiva y funcional. cuyo objetivo principal es aplicar los conceptos fundamentales de React, el diseño orientado a componentes y la creación de interfaces dinámicas.
 

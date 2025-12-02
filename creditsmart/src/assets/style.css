@@ -1,0 +1,118 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* HEADER / NAV */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-paginas {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-paginas a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-paginas a:hover {
+  color: #ffcc00;
+}
+
+/* CARD GRID */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-inline-size: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.card img {
+  inline-size: 100%;
+  max-block-size: 130px;
+  object-fit: contain;
+  margin-block-end: 1rem;
+}
+
+.card h3 {
+  color: #003366;
+  margin-block-end: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+/* BOTÓN GENERAL */
+.btn {
+  margin-block-start: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #02274f;
+}
+
+/* FOOTER */
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-block-start: 2rem;
+}

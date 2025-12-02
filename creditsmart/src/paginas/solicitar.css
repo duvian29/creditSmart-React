@@ -1,0 +1,64 @@
+.formulario {
+  max-inline-size: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-block-end: 20px;
+  color: #003366;
+}
+
+.form-credit h3 {
+  margin-block-start: 30px;
+  color: #444;
+  border-inline-start: 5px solid #003366;
+  padding-inline-start: 10px;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 15px;
+}
+
+.grupo label {
+  margin-block-end: 5px;
+  font-weight: bold;
+}
+
+.grupo input,
+.grupo select,
+.grupo textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.grupo input:focus,
+.grupo select:focus,
+.grupo textarea:focus {
+  border-color: #003366;
+  outline: none;
+  box-shadow: 0 0 5px rgba(26,115,232,0.3);
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-block-start: 25px;
+}
+
+.limpiar {
+  background: #5e5d5d;
+}
+
+.limpiar:hover {
+  background: #555;
+}

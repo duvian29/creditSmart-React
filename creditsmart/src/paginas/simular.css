@@ -1,0 +1,54 @@
+.simulador h2 {
+  margin: 2rem 0 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #003366;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.filtros {
+  inline-size: 90%;
+  max-inline-size: 1200px;
+  margin: 0 auto 2rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.2rem;
+}
+
+.campo label {
+  display: block;
+  margin-block-end: 0.4rem;
+  font-weight: bold;
+  color: #003366;
+}
+
+.campo input,
+.campo select {
+  inline-size: 100%;
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.btn-filtro {
+  padding: 0.7rem 1.2rem;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: end;
+}
+
+.btn-filtro:hover {
+  background-color: #02274f;
+}
